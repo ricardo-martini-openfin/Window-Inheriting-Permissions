@@ -1,0 +1,18 @@
+{
+    "licenseKey": "contract_identifier",
+    "runtime": {
+        "arguments": "--v=1 --no-sandbox",
+        "version": "stable"
+    },
+    "startup_app": {
+        "name": "Home",
+        "uuid": "33aa9062-9eb0-4875-b819-c90f38ef03eb",
+        "url": "http://localhost:3000/home.html",
+        "autoShow": true,
+        "permissions": {
+            "System": {
+                "launchExternalProcess": true
+            }
+        }
+    }
+}
